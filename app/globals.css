@@ -19,3 +19,23 @@ body {
   background: var(--background);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+.no-scrollbar {
+  /* overflow: hidden; */
+  /* Hide both vertical and horizontal scrollbar */
+}
+
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+  /* For Chrome, Safari, and Opera */
+}
+
+/* For Internet Explorer, Edge */
+.no-scrollbar {
+  -ms-overflow-style: none;
+}
+
+/* For Firefox */
+.no-scrollbar {
+  scrollbar-width: none;
+}
