@@ -65,7 +65,7 @@ export default function Home() {
           ))}
         </div>
         <div className="w-full">
-          <div className="sticky top-0">
+          <div className="absolute inset-x-2 bottom-2">
             <form onSubmit={handleSubmit} className="flex relative top-0 ">
               <textarea
                 rows={5}
