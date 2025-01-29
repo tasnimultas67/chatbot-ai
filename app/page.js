@@ -44,6 +44,7 @@ export default function Home() {
     <div className="min-h-screen bg-gray-100 grid grid-cols-4">
       <div className="bg-black"></div>
       <div className=" bg-white shadow-lg rounded-lg p-6 relative bottom-0 col-span-3 overflow-hidden">
+        {/* Preview */}
         <div className=" mb-4">
           {messages.map((msg, index) => (
             <div
@@ -64,8 +65,9 @@ export default function Home() {
             </div>
           ))}
         </div>
-        <div className="w-full">
-          <div className="absolute inset-x-2 bottom-2">
+        {/* Form */}
+        <div className="w-full ">
+          <div className="">
             <form onSubmit={handleSubmit} className="flex relative top-0 ">
               <textarea
                 rows={5}
