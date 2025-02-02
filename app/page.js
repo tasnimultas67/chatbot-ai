@@ -47,7 +47,7 @@ export default function Home() {
       <div className="bg-black flex items-end justify-start p-5">
         <div className="space-y-2">
           <Image
-            className="rounded-full size-20 object-cover border"
+            className="rounded-full size-20 object-cover ring ring-white"
             src="/Tasnimul-Haque.jpg"
             width={200}
             height={200}
