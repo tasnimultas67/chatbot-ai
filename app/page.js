@@ -109,7 +109,7 @@ export default function Home() {
                   textarea.style.height = "auto"; // Reset height
                   textarea.style.height = `${textarea.scrollHeight}px`; // Set new height
                 }}
-                className="flex-1 p-2.5 border border-gray-300 rounded-2xl bg-gray-100 focus:outline-none text-sm resize-none no-scrollbar"
+                className="flex-1 p-2.5 border border-gray-300 rounded-2xl bg-gray-200 focus:outline-none text-sm resize-none no-scrollbar"
                 placeholder="Type a message..."
               />
               <button
