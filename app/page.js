@@ -1,6 +1,8 @@
 "use client"; // Mark this as a Client Component
 
 import { ArrowUp } from "lucide-react";
+import Image from "next/image";
+import Link from "next/link";
 import { useState, useEffect, useRef } from "react";
 
 export default function Home() {
@@ -42,7 +44,34 @@ export default function Home() {
 
   return (
     <div className="min-h-screen bg-gray-100 grid grid-cols-4">
-      <div className="bg-black"></div>
+      <div className="bg-black flex items-end justify-start p-5">
+        <div className="space-y-2">
+          <Image
+            className="rounded-full size-20 object-cover"
+            src="/Tasnimul-Haque.jpg"
+            width={200}
+            height={200}
+          ></Image>
+          <h2 className="text-white font-semibold">Tasnimul Haque</h2>
+          <p className="text-xs text-gray-300 line-clamp-5">
+            Hello, I am Tasnimul Haque! As a creative developer, I am committed
+            to encompassing both design and development aspects in my work. This
+            allows me to actively contribute to projects from their initial
+            stages until the point of publication. My primary focus lies in
+            crafting exceptional layouts, interactive elements, and captivating
+            typography when working on websites.
+          </p>
+          <div>
+            <Link
+              className="text-xs text-white bg-slate-900 py-1 px-3 rounded-md"
+              href="https://tasnimul.vercel.app/"
+              target="_blank"
+            >
+              See More
+            </Link>
+          </div>
+        </div>
+      </div>
       <div className=" bg-white shadow-lg rounded-lg p-6 relative bottom-0 col-span-3 overflow-hidden">
         {/* Preview */}
         <div className=" mb-4">
