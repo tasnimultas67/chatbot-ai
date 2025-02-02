@@ -72,7 +72,7 @@ export default function Home() {
           </div>
         </div>
       </div>
-      <div className=" bg-white shadow-lg rounded-lg p-6 relative bottom-0 col-span-3 overflow-hidden">
+      <div className=" bg-white shadow-lg rounded-lg p-6 relative bottom-0 col-span-3 overflow-hidden flex items-end justify-start">
         {/* Preview */}
         <div className=" mb-4">
           {messages.map((msg, index) => (
